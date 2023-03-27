@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            padding: 10px;
+
+        }
+        form{
+            text-align: center;    
+        }
+    </style>
+</head>
+<body>
+    <h1>student Name: ARAVINDH</h1>
+    <hr>
+    <form >
+        <div>
+            <div>
+                <label>Telugu:</label>
+                <input type="number" id="telmarks" name="telugusubject">
+            </div>
+            <div>
+                <label>Hindi:</label>
+                <input type="number" id="hindimarks" name="hindisubject">
+            </div>
+            <div>
+                <label>English:</label>
+                <input type="number" id="engmarks" name="englishsubject">
+            </div>
+            <div>
+                <label>Maths:</label>
+                <input type="number" id="mathsmarks" name="mathssubject">
+            </div>
+            <div>
+                <label>science:</label>
+                <input type="number" id="sciencemarks" name="sciencesubject">
+            </div>
+            <div>
+                <label>Social:</label>
+                <input type="number" id="socmarks" name="socialsubject">
+            </div>
+            <button type="button" onclick="getmarks()" >submit marks</button>
+        </div>
+    </form>
+        <h2>student result: <span id="pass or fail"></span></h2>
+        <h3>total Marks:  <span id="studentmarks" ></span></h3>
+        <h4>grade obtained= <span id="grade" ></span> </h4>
+        <h4>percentage= <span id="percentage" ></span> </h4>
+    <script src="conditionalstatements.js "></script>
+</body>
+</html>
